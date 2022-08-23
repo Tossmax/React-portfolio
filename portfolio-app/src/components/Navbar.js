@@ -1,6 +1,6 @@
 import "./Navbarstyles.css";
 
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -22,7 +22,7 @@ const Navbar = () => {
     };
 
     window.addEventListener("scroll", changeColor);
-  return (
+    return (
     <div className={color ? "header header-bg" : "header"}>
         <Link to="/"><h1>Portfolio</h1></Link>
         <ul className={click ? "nav-menu active" : "nav-menu"}>

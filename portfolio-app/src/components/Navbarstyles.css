@@ -45,13 +45,15 @@
         z-index: -3;
         transition: 0.5s;
     }
-    .nav-menu li a:hover{
-        color: rgb(248, 217, 15);
-    }
-    .nava-menu.active{
+    
+    .nav-menu.active{
         left: 0;
     }
 
+    .nav-menu li a:hover{
+        color: rgb(248, 217, 15);
+    }
+    
     .nav-menu li{
         padding: 1rem 0;
     }
